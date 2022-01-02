@@ -1,0 +1,115 @@
+.btn-primary {
+    width: 120px;
+    height: 30px;
+    color: black;
+}
+
+.btn-quantity {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.btn-viewBag {
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    text-align: center;
+    z-index: 99;
+}
+
+.btn-checkout {
+    width: 120px;
+    height: 40px;
+    background-color: green;
+    text-align: center;
+    color: white;
+    outline: none;
+    margin-left: 10px;
+}
+
+.sizeSelectionBtn {
+    width: 63px;
+    height: 45px;       
+    box-sizing: border-box;
+    margin-right: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 5%;
+    line-height: 18px;
+    text-align: center;
+}
+
+.selected {
+    width: 63px;
+    height: 45px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+}
+
+.swatchSelected {
+    width: 63px;
+    height: 45px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    border: 3px solid red;
+}
+
+.addtocart {
+    width: 100%;
+    height: 52px;
+    padding: 16px 32px 16px 32px;
+    background-color: #5ECE7B;
+    border: none;
+    outline: none;
+}
+
+.addtocart:hover {
+    border: 1px solid blue;
+}
+
+.addProduct {
+    width: 52px;
+    height: 52px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #5ECE7B;
+    z-index: 2;
+    position: absolute;
+    margin-left: 280px;
+    margin-top: 220px;
+}
+
+.hideButton {
+    display: none;
+}
+
+.addProduct:hover {
+    border: 2px solid blue;
+}
+
+.attributesInCart-btn {
+    width: 24px;
+    height: 24px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.removeItem-btn {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(224, 100, 100);
+    border-radius: 10px;
+
+}
+
+.removeItem-btn:hover {
+    background-color: red;
+}

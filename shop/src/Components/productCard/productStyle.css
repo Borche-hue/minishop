@@ -1,0 +1,61 @@
+.product {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    max-width: 426px;
+}
+
+.product:hover {
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px 5px silver;
+}
+
+.productImage {
+    max-width: 361.38px;
+    max-height: 361.38px;
+    margin: 0 auto;
+}
+
+.notInStock {
+    max-width: 361.38px;
+    max-height: 361.38px;
+    margin: 0 auto;
+    opacity: 0.5;
+}
+
+.outOfStock {
+    max-width: 361.38px;
+    max-height: 361.38px;
+    margin: 0 auto; 
+}
+
+.outOfStockText {
+    position: absolute;
+    z-index: 2;
+    opacity: 0.8;
+    margin-top: 130px;
+    margin-left: 100px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 160%;
+    display: flex;
+    color: #8D8F9A;
+}
+
+.productName {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28.8px;
+    font-style: normal;
+    margin-top: 20px;
+}
+
+.price {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28.8px;
+}
